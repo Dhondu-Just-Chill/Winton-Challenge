@@ -1,2 +1,0 @@
-# Winton-Challenge
-kaggle compi
