@@ -1,0 +1,49 @@
+# -------------------------
+# Data
+# -------------------------
+data/*
+*.csv
+*.csv.zip
+*.zip
+*.h5
+*.pkl
+*.parquet
+
+# allow a placeholder README in data/
+!data/README.md
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# -------------------------
+# Virtual environments
+# -------------------------
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# -------------------------
+# VSCode / IDE stuff
+# -------------------------
+.vscode/
+.idea/
+
+# -------------------------
+# OS junk
+# -------------------------
+.DS_Store
+Thumbs.db
